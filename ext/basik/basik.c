@@ -4,9 +4,7 @@
 
 VALUE native_greeting (VALUE rb_self)
 {
-	printf ("hello from native greeting\n");
-	
-	return rb_self;
+	return rb_str_new2 ("hello from native greeting");
 }
 
 
