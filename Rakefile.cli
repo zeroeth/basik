@@ -1,0 +1,4 @@
+desc "Build using cli `gem build basik.gemspec`"
+task :build do
+  system "gem build basik.gemspec"
+end
