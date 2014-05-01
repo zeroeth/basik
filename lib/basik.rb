@@ -1,4 +1,5 @@
 require "basik/version"
+require "basik/basik" # Native extension
 
 module Basik
   # Your code goes here...
